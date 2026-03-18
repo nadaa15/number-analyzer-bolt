@@ -52,7 +52,7 @@ function App() {
     const numbers: number[] = [];
     for (const val of values) {
       if (val === '') {
-        setError('Empty values detected. Please enter valid numbers separated by commas.');
+        setError('Empty values d. Please enter valid numbers separated by commas.');
         return;
       }
 
